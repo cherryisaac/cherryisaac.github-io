@@ -405,7 +405,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .header {
     background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
-        url('./images/new-york-night-city-view-panorama-transformed.jpeg');
+        url('./images/brooklyn-bridge-nyc-night.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
