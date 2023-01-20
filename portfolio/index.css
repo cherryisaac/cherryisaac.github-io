@@ -34,7 +34,7 @@
     --line-height-normal: 1.7;
     --line-height-small: 1.2;
 
-    --black: rgb(0, 0, 0, 0.5);
+    --black: rgb(0, 0, 0);
     /*--pink: #ff3258;
     the color bellow is red NOT pink*/
     --pink: rgb(255, 0, 0, 0.8);
