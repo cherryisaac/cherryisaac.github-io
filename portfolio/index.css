@@ -69,6 +69,7 @@ html {
 }
 
 body {
+    border: 1px solid red;
     font-size: var(--font-size-small);
     font-family: var(--font-stack);
     font-weight: 400;
@@ -110,7 +111,8 @@ body {
 section {
     padding: var(--gutter-huge) 0;
     border-bottom: var(--border-light);
-     border: 1px solid rgb(255, 0, 0, 0.8);
+/*     Border color of each section */
+/*      border: 1px solid rgb(255, 0, 0, 0.8); */
 }
 
 img {
