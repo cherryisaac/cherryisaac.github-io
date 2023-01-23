@@ -69,7 +69,7 @@ html {
 }
 
 body {
-    border: 1px solid red;
+    border: 1px solid rgb(255, 0, 0, 0.8);
     font-size: var(--font-size-small);
     font-family: var(--font-stack);
     font-weight: 400;
@@ -496,18 +496,18 @@ body:not(.user-is-tabbing) a:focus {
 
 .work__image-box {
     margin-bottom: var(--gutter-normal);
-    border: 1px solid red;
+    border: 1px solid rgb(255, 0, 0, 0.8);
     display: flex;
     justify-content: center;
-    align-items: center;
+/*     align-items: center; */
 }
 
 @media(min-width: 901px) {
     .work__image-box {
-    border: 1px solid red;
+    border: 1px solid rgb(255, 0, 0, 0.8);
     display: flex;
     justify-content: center;
-    align-items: center;
+/*     align-items: center; */
     }
 }
 
