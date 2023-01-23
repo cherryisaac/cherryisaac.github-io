@@ -499,7 +499,7 @@ body:not(.user-is-tabbing) a:focus {
     border: 1px solid rgb(255, 0, 0, 0.8);
     display: flex;
     justify-content: center;
-/*     align-items: center; */
+    align-items: center;
 }
 
 @media(min-width: 901px) {
@@ -507,7 +507,7 @@ body:not(.user-is-tabbing) a:focus {
     border: 1px solid rgb(255, 0, 0, 0.8);
     display: flex;
     justify-content: center;
-/*     align-items: center; */
+    align-items: center;
     }
 }
 
