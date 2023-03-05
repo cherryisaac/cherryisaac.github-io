@@ -8223,8 +8223,9 @@ textarea.form-control {
 .wrapper {
   width: 100%; }
 
-.contact-wrap { 
-  background: #4a4a4a;
+.contact-wrap { /* Changes form color and transparency (opacity)*/
+  background: #262626;
+  opacity: 0.8;
   border-radius: 10px; }
 
 .info-wrap h3 {
