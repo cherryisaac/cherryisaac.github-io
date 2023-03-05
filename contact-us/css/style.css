@@ -8156,7 +8156,7 @@ h1, h2, h3, h4, h5,
   line-height: 1.5;
   font-weight: 400;
   font-family: "Poppins", Arial, sans-serif;
-  color: #000; }
+  color: #fff; }
 
 .bg-primary {
   background: #1089ff !important; }
@@ -8223,8 +8223,8 @@ textarea.form-control {
 .wrapper {
   width: 100%; }
 
-.contact-wrap {
-  background: #000000;
+.contact-wrap { 
+  background: #4a4a4a;
   border-radius: 10px; }
 
 .info-wrap h3 {
