@@ -8195,8 +8195,8 @@ h1, h2, h3, h4, h5,
 
 .form-control {
   height: 52px;
-  background: #fff;
-  color: #000;
+  background: #000;
+  color: #fff;
   font-size: 14px;
   border-radius: 2px;
   -webkit-box-shadow: none !important;
@@ -8224,7 +8224,7 @@ textarea.form-control {
   width: 100%; }
 
 .contact-wrap {
-  background: #fff;
+  background: #000000;
   border-radius: 10px; }
 
 .info-wrap h3 {
