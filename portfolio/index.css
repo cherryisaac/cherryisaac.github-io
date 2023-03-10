@@ -556,7 +556,6 @@ ab
 
 .about__photo-container {
     margin-bottom: var(--gutter-normal);
-/*     border: 1px solid red; *
 }
 
 @media(min-width: 901px) {
@@ -567,9 +566,8 @@ ab
     .about__photo-container {
         flex: 1;
         margin: 0 var(--gutter-huge) 0 0;
-/*         border: 1px solid red; */
     }
-}
+} 
 
 /* --------------------------------------- */
 /* ----- Contact ----- */
