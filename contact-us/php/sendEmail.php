@@ -1,8 +1,5 @@
 <?php
 
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-
 
 // Replace this with your own email address
 $to = 'cherryisaac69@gmail.com';
@@ -44,11 +41,15 @@ if ($_POST) {
     ini_set("sendmail_from", $to); // for Windows server
     $mail = mail($to, $subject, $message, $headers);
 
-    if ($mail) {
-        echo "OK";
-    } else {
-        echo "Something went wrong. Please try again.";
+if ($mail) {
+    echo "OK";
+} else {
+    echo "Something went wrong. Please try again.";
+    if (isset($php_errormsg)) {
+        echo "<br>Error: " . $php_errormsg;
     }
+}
+
 }
 
 ?>
